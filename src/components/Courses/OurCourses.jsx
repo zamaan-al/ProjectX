@@ -5,7 +5,7 @@ const OurCourses = () => {
         <section className="bg-black py-16">
             {/* Section Heading */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h1 className="mt-20 text-5xl lg:text-7xl sm:text-5xl font-bold text-white leading-tight drop-shadow-md">
+                <h1 className="mt-20 text-5xl lg:text-7xl sm:text-5xl  text-white leading-tight drop-shadow-md">
                     Our Courses
                 </h1>
             </div>

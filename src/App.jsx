@@ -5,6 +5,7 @@ import './App.css'
 import LandingPage from './pages/LandingPage'
 import Courses from './pages/Courses'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Services from './pages/Services'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
    <Routes>
     <Route path='/' element={<LandingPage/>}/> 
     <Route path='/courses' element={<Courses/>}/>
+    <Route path='/services' element={<Services/>}/>
    </Routes>
    </Router>
 
