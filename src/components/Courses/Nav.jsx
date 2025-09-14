@@ -12,7 +12,7 @@ const Nav = () => {
           <img
             src="ProjectX Logo white 1.png"
             alt="ProjectX"
-            className="h-8 sm:h-12 md:h-14 w-auto"
+            className="h-8 sm:h-12 md:h-16 lg:h-16 w-auto"
           />
         </div>
 

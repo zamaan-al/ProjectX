@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <img
                   src="ProjectX Logo white 1.png"
                   alt="ProjectX"
-                  className="h-8 sm:h-12 md:h-16 lg:h-20 w-auto"
+                  className="h-8 sm:h-12 md:h-16 lg:h-16 w-auto"
                 />
               </div>
               <div className="h-6 sm:h-10 w-px bg-white opacity-30 hidden sm:block"></div>
