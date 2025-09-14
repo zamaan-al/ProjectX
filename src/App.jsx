@@ -7,6 +7,8 @@ import Courses from './pages/Courses'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AboutUs from './pages/AboutUs'
 
+import Services from './pages/Services'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,7 +17,10 @@ function App() {
    <Routes>
     <Route path='/' element={<LandingPage/>}/> 
     <Route path='/courses' element={<Courses/>}/>
+
     <Route path='/aboutus' element={<AboutUs/>}/>
+    <Route path='/services' element={<Services/>}/>
+
    </Routes>
    </Router>
 
