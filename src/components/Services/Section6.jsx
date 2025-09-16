@@ -48,7 +48,7 @@ const Printing = () => {
         </div>
 
         {/* Divider Line */}
-        <div className=" mt-12 flex justify-center lg:justify-start lg:ml-[300px]">
+        <div className=" mt-20 flex justify-center lg:justify-start lg:ml-[300px]">
           <div className="w-full max-w-[670px] border-t border-[#ffffff]/50"></div>
         </div>
       </div>

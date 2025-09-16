@@ -29,7 +29,7 @@ const TechExpo = () => {
                     <div className="flex justify-center lg:justify-start">
                         <div className="w-full max-w-[350px]">
                             {/* Heading outside the box */}
-                            <h3 className="w-full bg-[#14648D]/50 text-white px-6 py-3 rounded-lg mb-5 text-center">
+                            <h3 className="w-full bg-[#14648D]/50 text-xl text-white px-6 py-3 rounded-lg mb-5 text-center">
                                 ProjectX <span className="ml-3">|</span>
                                 <span className="ml-3">Tech Expo</span>
                             </h3>
@@ -50,11 +50,13 @@ const TechExpo = () => {
                 </div>
 
                 {/* Divider Line */}
-                <div className=" mt-12 flex justify-center lg:justify-start lg:ml-[300px]">
+                <div className=" mt-20 flex justify-center lg:justify-start lg:ml-[300px]">
                     <div className="w-full max-w-[670px] border-t border-[#ffffff]/50"></div>
                 </div>
             </div>
+            
         </section>
+        
     );
 };
 
