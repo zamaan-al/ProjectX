@@ -16,7 +16,7 @@ const AboutUs = () => {
       <MilestoneTimeline/>
       <FoundersStory/>
       <MapSlide/>
-      <Footer/>
+      
     </div>
   );
 };

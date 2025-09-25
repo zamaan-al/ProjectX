@@ -8,7 +8,7 @@ const Courses = () => {
     <div>
       <Nav/>
       <OurCourses/>
-      <Footer/>
+      
       
     </div>
   )

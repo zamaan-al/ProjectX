@@ -16,7 +16,7 @@ const LandingPage = () => {
       <InnovatorJourney/>
       <WhyProjectX/>
       <BenefitsProjectX/>
-      <Footer/>
+      
     </div>
   )
 }

@@ -22,7 +22,7 @@ const Services = () => {
         <ProjectMaking/>
         <Printing/>
         <Kits/>
-        <Footer/>
+       
         
       
     </div>

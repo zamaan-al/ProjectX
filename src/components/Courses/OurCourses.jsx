@@ -5,13 +5,13 @@ const OurCourses = () => {
         <section className="bg-black py-16">
             {/* Section Heading */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h1 className="mt-20 text-5xl lg:text-7xl sm:text-5xl  text-white leading-tight drop-shadow-md">
+                <h2 className="mt-10 md:mt-16 text-3xl sm:text-4xl md:text-5xl  text-white leading-tight drop-shadow-md">
                     Our Courses
-                </h1>
+                </h2>
             </div>
 
             {/* Level Card 1*/}
-            <div className="mt-50 w-full">
+            <div className="mt-40 w-full">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
