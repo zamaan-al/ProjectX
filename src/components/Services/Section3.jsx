@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectXEcommerce = () => {
   return (
-    <section className="bg-[#0a1a23] min-h-screen flex items-center justify-center px-6 py-16">
+    <section className=" bg-gradient-to-br from-[#03131e] via-[#03131e] to-[#073852] min-h-screen flex items-center justify-center px-6 py-16">
         {/* Centered container */}
             <div className="max-w-7xl mx-auto">
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-12">
