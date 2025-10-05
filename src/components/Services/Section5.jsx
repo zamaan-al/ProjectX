@@ -14,7 +14,7 @@ const ProjectMaking = () => {
     <span className="ml-3">Project Making</span>
   </h2>
 
-  <p className="mt-10 max-w-[350px] mx-auto md:mx-0 text-base leading-relaxed text-gray-200">
+  <p className="mt-10 max-w-[350px] mx-auto md:mx-0 text-base leading-relaxed text-gray-200 text-justify">
     An online platform where you can take up courses in various fields
     of technology. A free practical kit will be available to the
     students, along with the assistance of dedicated trainers. Starting

@@ -10,18 +10,18 @@ const Printing = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
           {/* Left: Image */}
           <div className="flex justify-center lg:justify-end">
-  <img
-    src="/3d-printing.jpg"
-    alt="Workshop"
-    className="w-[260px] h-[250px] 
+            <img
+              src="/3d-printing.jpg"
+              alt="Workshop"
+              className="w-[260px] h-[250px] 
       sm:w-[300px] sm:h-[280px] 
       md:w-[380px] md:h-[300px] 
       lg:w-[350px] lg:h-[365px]
       object-cover 
       shadow-lg
       rounded-2xl rounded-bl-none"
-  />
-</div>
+            />
+          </div>
 
 
           {/* Right: Content */}
@@ -36,13 +36,19 @@ const Printing = () => {
 
               {/* Content Box */}
               <div className="w-full bg-[#082634] p-6 sm:p-8 rounded-2xl shadow-md">
-                <p className="text-gray-300 leading-relaxed text-center lg:text-left text-sm sm:text-base">
-                  An online platform where you can take up courses in various fields of technology.
-                   A free practical kit will be available to the students, along with the assistance 
-                   of dedicated trainers. Starting with electronics at a basic level, We aim to build 
-                   Indian Projects and produce skilled resources for the technology sector through our students.
+                <p
+                  className="text-gray-300 leading-relaxed text-sm sm:text-base text-justify"
+                  style={{ hyphens: 'auto', textAlignLast: 'left' }}
+                >
+                  An online platform where you can take up courses in various
+                  fields of technology. A free practical kit will be available
+                  to the students, along with the assistance of dedicated trainers.
+                  Starting with electronics at a basic level, we aim to build Indian
+                  projects and produce skilled resources for the technology sector
+                  through our students.
                 </p>
               </div>
+
             </div>
           </div>
         </div>
@@ -56,4 +62,4 @@ const Printing = () => {
   );
 };
 
-export default  Printing;
+export default Printing;

@@ -20,9 +20,9 @@ const TechExpo = () => {
                                        shadow-lg
                                        rounded-2xl rounded-bl-none
                                        md:w-[380px] md:h-[300px] "
-                                       />
-                     </div>
-                                       
+                        />
+                    </div>
+
 
 
                     {/* Right: Content */}
@@ -37,14 +37,20 @@ const TechExpo = () => {
 
                             {/* Content Box */}
                             <div className="w-full bg-[#082634] p-6 sm:p-8 rounded-2xl shadow-md">
-                                <p className="text-gray-300 leading-relaxed text-center lg:text-left text-sm sm:text-base">
+                                <p
+                                    className="text-gray-300 leading-relaxed text-sm sm:text-base text-justify"
+                                    style={{ hyphens: 'auto', textAlignLast: 'left' }}
+                                >
                                     An online platform where you can take up courses in various
                                     fields of technology. A free practical kit will be available
                                     to the students, along with the assistance of dedicated trainers.
-                                    Starting with electronics at a basic level, We aim to build Indian
-                                    Projects and produce skilled resources for the technology sector through our students.
+                                    Starting with electronics at a basic level, we aim to build Indian
+                                    projects and produce skilled resources for the technology sector
+                                    through our students.
                                 </p>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -54,9 +60,9 @@ const TechExpo = () => {
                     <div className="w-full max-w-[670px] border-t border-[#ffffff]/50"></div>
                 </div>
             </div>
-            
+
         </section>
-        
+
     );
 };
 
