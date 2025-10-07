@@ -3,7 +3,7 @@ import React from "react";
 
 const Workshops = () => {
   return (
-    <section className="bg-gradient-to-br from-[#03131e] via-[#073852] to-[#082f49]  text-white py-16 px-6 lg:px-20">
+    <section className="bg-gradient-to-b from-[#0B1726] via-[#093367] to-[#0d587e]   text-white py-16 px-6 lg:px-20">
       {/* Centered container */}
       <div className="max-w-7xl mx-auto">
         {/* Grid Content */}

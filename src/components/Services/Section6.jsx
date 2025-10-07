@@ -3,7 +3,7 @@ import React from "react";
 
 const Printing = () => {
   return (
-    <section className="bg-gradient-to-br from-[#082f49] via-[#033b5d] to-[#033b5d] text-white py-16 px-6 lg:px-20">
+    <section className=" bg-gradient-to-b  from-[#0d587e] via-[#1857a3] to-[#1857a3]  text-white py-16 px-6 lg:px-20">
       {/* Centered container */}
       <div className="max-w-7xl mx-auto">
         {/* Grid Content */}

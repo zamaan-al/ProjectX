@@ -8,7 +8,7 @@ const OurCourses = () => {
                 className="absolute inset-0 pointer-events-none"
                 style={{
                     // Overlay goes from exact black at top to #1C8CC4 at the bottom
-                    background: "linear-gradient(to bottom, #000000 0%, #1C8CC4 100%)",
+                    background: "linear-gradient(to bottom, #000000 0%, #0b77ac 100%)",
                     zIndex: 0,
                 }}
             ></div>

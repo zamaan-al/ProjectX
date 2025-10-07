@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-gradient-to-b from-[#1C8CC4] via-[#1C8CC4] to-[#1C8CC4] text-white px-4 sm:px-6 py-12 sm:py-20">
+    <footer id="footer" className="bg-gradient-to-b from-[#0b77ac] via-[#1857a3] to-[#0b77ac] text-white px-4 sm:px-6 py-12 sm:py-20">
       <div className="max-w-7xl mx-auto bg-[#000000] rounded-2xl sm:rounded-3xl px-6 sm:px-12 py-8 sm:py-16 flex flex-col justify-between shadow-2xl">
         {/* Main Content */}
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 lg:gap-12">

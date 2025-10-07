@@ -3,7 +3,7 @@ import React from "react";
 
 const Kits = () => {
   return (
-    <section className="bg-gradient-to-br from-[#033b5d] via-[#033b5d] to-[#1C8CC4] min-h-screen flex items-center justify-center px-6 py-16">
+    <section className="bg-gradient-to-b from-[#1857a3] via-[#1857a3] to-[#0b77ac]  min-h-screen flex items-center justify-center px-6 py-16">
         {/* Centered container */}
             <div className="max-w-7xl mx-auto">
       <div className="max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-12">

@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-br from-black via-[#01090f] to-[#03131e] min-h-screen flex items-center justify-center px-6 py-16">
+    <section className="bg-gradient-to-br from-[#000000] via-[#0c161c] to-[#0B1726] min-h-screen flex items-center justify-center px-6 py-16">
       {/* Centered container */}
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}

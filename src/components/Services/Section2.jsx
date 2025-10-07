@@ -3,7 +3,7 @@ import React from "react";
 
 const TechExpo = () => {
     return (
-        <section className="bg-gradient-to-br from-[#01090f] via-[#03131e] to-[#03131e] text-white py-16 px-6 lg:px-20">
+        <section className="bg-gradient-to-br from-[#0c161c] via-[#0B1726] to-[#0B1726] text-white py-16 px-6 lg:px-20">
             {/* Centered container */}
             <div className="max-w-7xl mx-auto">
                 {/* Grid Content */}
