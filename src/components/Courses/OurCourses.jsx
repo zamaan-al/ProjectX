@@ -2,26 +2,35 @@ import React from "react";
 
 const OurCourses = () => {
     return (
-        <section className="bg-black py-16">
+        <section className="bg-black py-16 relative overflow-hidden">
+            {/* Overlay Gradient */}
+            <div
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                    // Overlay goes from exact black at top to #1C8CC4 at the bottom
+                    background: "linear-gradient(to bottom, #000000 0%, #1C8CC4 100%)",
+                    zIndex: 0,
+                }}
+            ></div>
             {/* Section Heading */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                 <h2 className="mt-10 md:mt-16 text-3xl sm:text-4xl md:text-5xl  text-white leading-tight drop-shadow-md">
                     Our Courses
                 </h2>
             </div>
 
             {/* Level Card 1*/}
-            <div className="mt-40 w-full">
+            <div className="mt-40 w-full relative z-10">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
                         backgroundImage: `url("/couses1.png")`,
-                        minHeight: "450px", // adjust height as needed
+                        minHeight: "450px",
+                        opacity: 0.7,
                     }}
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/70"></div>
-
                     {/* Centered Content */}
                     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="border-2 border-dashed border-blue-400 rounded-xl p-6 sm:p-10 text-white">
@@ -29,14 +38,13 @@ const OurCourses = () => {
                             <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-6">
                                 Level 1 | Junior Innovator
                             </h2>
-
                             {/* Course Description */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/product-description.png"
                                         alt="Course Description"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">
@@ -51,14 +59,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Modules */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/study-program.png"
                                         alt="Modules"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Modules</h3>
@@ -70,14 +77,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Duration */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/history (2).png"
                                         alt="Duration"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Duration</h3>
@@ -85,14 +91,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Benefits */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/benefit.png"
                                         alt="Benefits"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Benefits</h3>
@@ -107,14 +112,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Eligibility */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/criteria.png"
                                         alt="Eligibility"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Eligibility</h3>
@@ -122,24 +126,23 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Level Card 2*/}
-            <div className="mt-50 w-full">
+            <div className="mt-50 w-full relative z-10">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
                         backgroundImage: `url("/level2.png")`,
-                        minHeight: "450px", // adjust height as needed
+                        minHeight: "450px",
+                        opacity: 0.7,
                     }}
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/70"></div>
-
                     {/* Centered Content */}
                     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="border-2 border-dashed border-blue-400 rounded-xl p-6 sm:p-10 text-white">
@@ -147,14 +150,13 @@ const OurCourses = () => {
                             <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-6">
                                 Level 2  |  Young Innovator
                             </h2>
-
                             {/* Course Description */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/product-description.png"
                                         alt="Course Description"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">
@@ -168,14 +170,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Modules */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/study-program.png"
                                         alt="Modules"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Modules</h3>
@@ -187,14 +188,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Duration */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/history (2).png"
                                         alt="Duration"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Duration</h3>
@@ -202,14 +202,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Benefits */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/benefit.png"
                                         alt="Benefits"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Benefits</h3>
@@ -219,19 +218,17 @@ const OurCourses = () => {
                                             <li> Understanding of binary logic and logic gates </li>
                                             <li> Knowledge of rectifiers and transformers </li>
                                             <li>Expertise in both digital and analog electronics</li>
-
                                         </ol>
                                     </div>
                                 </div>
                             </div>
-
                             {/* Eligibility */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/criteria.png"
                                         alt="Eligibility"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Eligibility</h3>
@@ -239,24 +236,23 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* Level Card 3*/}
-            <div className="mt-50 w-full">
+            <div className="mt-50 w-full relative z-10">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
                         backgroundImage: `url("/level3.png")`,
-                        minHeight: "450px", // adjust height as needed
+                        minHeight: "450px",
+                        opacity: 0.7,
                     }}
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/70"></div>
-
                     {/* Centered Content */}
                     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="border-2 border-dashed border-blue-400 rounded-xl p-6 sm:p-10 text-white">
@@ -264,14 +260,13 @@ const OurCourses = () => {
                             <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-6">
                                 Level 3  |  Master Innovator
                             </h2>
-
                             {/* Course Description */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/product-description.png"
                                         alt="Course Description"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">
@@ -285,14 +280,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Modules */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/study-program.png"
                                         alt="Modules"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Modules</h3>
@@ -304,14 +298,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Duration */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/history (2).png"
                                         alt="Duration"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Duration</h3>
@@ -319,14 +312,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Benefits */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/benefit.png"
                                         alt="Benefits"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Benefits</h3>
@@ -340,14 +332,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Eligibility */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/criteria.png"
                                         alt="Eligibility"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Eligibility</h3>
@@ -355,23 +346,22 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
             {/* Level Card 4*/}
-            <div className="mt-50 w-full">
+            <div className="mt-50 w-full relative z-10">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
                         backgroundImage: `url("/level4.png")`,
-                        minHeight: "450px", // adjust height as needed
+                        minHeight: "450px",
+                        opacity: 0.7,
                     }}
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/70"></div>
-
                     {/* Centered Content */}
                     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="border-2 border-dashed border-blue-400 rounded-xl p-6 sm:p-10 text-white">
@@ -379,14 +369,13 @@ const OurCourses = () => {
                             <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-6">
                                 Level 4  |  Product Developer
                             </h2>
-
                             {/* Course Description */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/product-description.png"
                                         alt="Course Description"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">
@@ -399,14 +388,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Modules */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/study-program.png"
                                         alt="Modules"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Modules</h3>
@@ -418,14 +406,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Duration */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/history (2).png"
                                         alt="Duration"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Duration</h3>
@@ -433,14 +420,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Benefits */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/benefit.png"
                                         alt="Benefits"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Benefits</h3>
@@ -454,14 +440,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Eligibility */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/criteria.png"
                                         alt="Eligibility"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Eligibility</h3>
@@ -469,23 +454,22 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
             {/* Level Card 5*/}
-            <div className="mt-50 w-full">
+            <div className="mt-50 w-full relative z-10">
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
                         backgroundImage: `url("/level5.png")`,
-                        minHeight: "450px", // adjust height as needed
+                        minHeight: "450px",
+                        opacity: 0.7,
                     }}
                 >
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/70"></div>
-
                     {/* Centered Content */}
                     <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                         <div className="border-2 border-dashed border-blue-400 rounded-xl p-6 sm:p-10 text-white">
@@ -493,14 +477,13 @@ const OurCourses = () => {
                             <h2 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-6">
                                 Level 5  |  Startup Founder
                             </h2>
-
                             {/* Course Description */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/product-description.png"
                                         alt="Course Description"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">
@@ -513,14 +496,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Modules */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/study-program.png"
                                         alt="Modules"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Modules</h3>
@@ -532,14 +514,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Duration */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/history (2).png"
                                         alt="Duration"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Duration</h3>
@@ -547,14 +528,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Benefits */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/benefit.png"
                                         alt="Benefits"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Benefits</h3>
@@ -568,14 +548,13 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                             {/* Eligibility */}
                             <div className="mb-6">
                                 <div className="flex items-start gap-6">
                                     <img
                                         src="/criteria.png"
                                         alt="Eligibility"
-                                        className="w-7 h-7"
+                                        className="w-7 h-7 opacity-70"
                                     />
                                     <div>
                                         <h3 className="font-semibold text-white text-lg sm:text-xl">Eligibility</h3>
@@ -583,7 +562,6 @@ const OurCourses = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
