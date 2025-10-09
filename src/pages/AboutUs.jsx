@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../components/Courses/Nav";
 import AboutSection from "../components/AboutUs/AboutSection";
 import VisionSection from "../components/AboutUs/VisionSection";
-import MilestoneTimeline from "../components/AboutUs/MilestoneTimeLine";
+import MilestoneTimeline from "../components/AboutUs/MilestoneTimeline";
 import FoundersStory from "../components/AboutUs/FoundersStory";
 import MapSlide from "../components/AboutUs/MapSlide";
 import Footer from "../components/Footer";
