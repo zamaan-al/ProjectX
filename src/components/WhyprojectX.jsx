@@ -19,17 +19,17 @@ const WhyProjectX = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0d587e] via-[#1857a3] to-[#0d587e] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
+    <div className="relative min-h-screen bg-gradient-to-b from-[#0d587e] via-[#1857a3] to-[#0d587e] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-12 py-12 sm:py-20">
       
       {/* Title Section */}
-      <div className="mt-30 flex flex-col lg:flex-row mb-12 lg:space-x-6 space-y-4 lg:space-y-0 items-center lg:items-start">
+      <div className="flex flex-col-reverse sm:flex-col lg:flex-row items-center justify-center lg:justify-between w-full max-w-6xl mb-16 gap-10">
         {/* First Heading */}
-        <h1 className="mt-10 lg:mt-36 text-white text-4xl sm:text-5xl lg:text-6xl font-bold lg:mr-96 text-center lg:text-left">
-          Why <br />ProjectX?
+        <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold text-center lg:text-left">
+          Why <br className="hidden sm:block" /> ProjectX?
         </h1>
 
-        {/* Second Heading: SVG */}
-        <div className="w-40 h-40 sm:w-56 sm:h-56 lg:w-72 lg:h-72 opacity-90">
+        {/* SVG */}
+        <div className="w-28 h-28 sm:w-36 sm:h-36 lg:w-48 lg:h-48 opacity-90">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -50,9 +50,9 @@ const WhyProjectX = () => {
 
       {/* Features Grid */}
       <div className="w-full max-w-5xl mx-auto relative">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
           {/* Left Column */}
-          <div className="space-y-8 lg:ml-15">
+          <div className="space-y-8">
             {features[0].left.map((feature, index) => (
               <div key={`left-${index}`} className="text-white">
                 <h3 className="text-lg sm:text-xl font-semibold mb-1">
@@ -68,7 +68,7 @@ const WhyProjectX = () => {
           </div>
 
           {/* Right Column */}
-          <div className="space-y-8 lg:ml-56">
+          <div className="space-y-8">
             {features[0].right.map((feature, index) => (
               <div key={`right-${index}`} className="text-white">
                 <h3 className="text-lg sm:text-xl font-semibold mb-1">
@@ -86,9 +86,8 @@ const WhyProjectX = () => {
       </div>
 
       {/* Vertical Line Separator (desktop only) */}
-      <div className=" absolute left-20 top-2/3 transform -translate-y-1/2 hidden lg:block">
-       <div className="w-[2px] h-96 bg-[#f9f2f2] opacity-30"></div>
-
+      <div className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="w-[2px] h-96 bg-[#f9f2f2] opacity-30"></div>
       </div>
     </div>
   );
