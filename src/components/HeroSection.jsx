@@ -53,7 +53,7 @@ const HeroSection = () => {
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background */}
       <img src="/freepik__candid-photography-with-natural-textures-and-highl__53773.png"
-        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat "
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat object-cover "
         loading="lazy"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-blue-500/50 to-blue z-10"></div>

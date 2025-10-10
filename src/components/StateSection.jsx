@@ -15,13 +15,14 @@ const StatsSection = () => {
               <img
                 src="medium-shot-boy-with-smartphone.jpg"
                 alt="Child Innovation"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="w-1/2 h-full bg-[rgba(20,74,101,1)]"></div>
             
             {/* Centered Text */}
-            <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 text-center">
+            <div  className="absolute inset-0 flex items-center justify-center px-4 sm:px-6 text-center">
               <p className="text-sm sm:text-lg lg:text-xl font-normal leading-relaxed">
                 Tired of Your Child Wasting{" "}
                 <span className="font-bold">Hours on Screens?</span>
@@ -38,6 +39,7 @@ const StatsSection = () => {
               <img
                 src="full-shot-mother-sitting-floor.jpg"
                 alt="Child Building"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
