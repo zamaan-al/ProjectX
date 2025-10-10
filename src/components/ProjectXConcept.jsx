@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectXConcept = () => {
   return (
-    <div className="relative bg-[#0B1726] text-white min-h-screen flex flex-col items-center py-16 px-6 overflow-hidden">
+    <div className="relative bg-[#0B1726] text-white min-h-screen flex flex-col items-center py-26 px-6 overflow-hidden">
       {/* Title with full-width thick lines */}
       <div className="flex items-center w-full mb-12">
         {/* Left Line */}
@@ -39,7 +39,7 @@ const ProjectXConcept = () => {
           <div className="absolute -bottom-8 -left-8 w-[180px] h-[180px] rounded-full 
                           bg-[rgba(28,140,196,1)] opacity-40 blur-3xl pointer-events-none" />
 
-          <img src="Explorer.svg" alt="Explore Technology" className="w-14 h-14 mb-6 relative z-10" />
+          <img src="Explorer.svg" alt="Explore Technology" loading="lazy" className="w-14 h-14 mb-6 relative z-10" />
           <h3 className="text-lg font-semibold mb-3 relative z-10">EXPLORE TECHNOLOGY</h3>
           <p className="text-sm text-gray-300 leading-relaxed relative z-10">
             We Learn, Practice and have fun. It gives a lot of satisfaction!
@@ -71,7 +71,7 @@ const ProjectXConcept = () => {
       </div>
 
       {/* ProjectX Kit Section - Aligned */}
-      <div className="flex flex-col items-center text-center max-w-6xl mx-auto">
+      <div className="flex flex-col items-center text-center max-w-6xl mx-auto mt-40">
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-bold mb-1 z-10">
           Learn, Practice and Build
@@ -84,6 +84,7 @@ const ProjectXConcept = () => {
         <img
           src="60591267-aadb-4872-a37a-6f90d42d678c.png"
           alt="ProjectX Kit"
+          loading="lazy"
           className=""
         />
 

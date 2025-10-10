@@ -17,7 +17,7 @@ const WhyProjectX = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0d587e] via-[#1857a3] to-[#0d587e] flex flex-col items-center justify-center px-6 py-16">
+    <div className="relative min-h-screen bg-gradient-to-b from-[#0d587e] via-[#1857a3] to-[#0d587e] flex flex-col items-center justify-center px-6  ">
       
       {/* Header Section */}
       <div className="flex flex-col sm:flex-row items-center justify-center gap-8 lg:gap-20 mb-16 text-center sm:text-left md:mt-40">
