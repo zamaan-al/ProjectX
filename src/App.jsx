@@ -17,14 +17,14 @@ function App() {
     <Router>
       <ScrollToTop />
 
-      <Suspense fallback={<div style={{padding:20}}>Loading page…</div>}>
+      
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/courses' element={<Courses/>}/>
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/services' element={<Services/>}/>
         </Routes>
-      </Suspense>
+      
 
       {/* Footer lazy-loaded with its own boundary to avoid blocking routes */}
       <Suspense fallback={<div aria-hidden="true" />}>

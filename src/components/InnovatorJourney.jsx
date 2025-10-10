@@ -10,7 +10,7 @@ const InnovatorJourney = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0B1726] via-[#093367] to-[#0d587e] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-12 py-8 sm:py-12 pb-30">
+    <div className="relative min-h-screen bg-gradient-to-b from-[#0B1726] via-[#093367] to-[#0d587e] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-12 py-8 sm:py-12 pb-40">
       {/* Title */}
       <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-center  sm:mb-12 ">
         Our <span className="font-black">Innovator Journey</span>
@@ -21,6 +21,7 @@ const InnovatorJourney = () => {
         <img
           src="innovator.png"
           alt="Innovator Journey Graph"
+          loading="lazy"
           className="w-full h-auto"
         />
 
