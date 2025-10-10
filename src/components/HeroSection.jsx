@@ -52,13 +52,10 @@ const HeroSection = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
       {/* Background */}
-      <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('/freepik__candid-photography-with-natural-textures-and-highl__53773.png')",
-        }}
-      ></div>
+      <img src="/freepik__candid-photography-with-natural-textures-and-highl__53773.png"
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat "
+        loading="lazy"
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-blue-500/50 to-blue z-10"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent z-10 sm:from-black/40"></div>
 
