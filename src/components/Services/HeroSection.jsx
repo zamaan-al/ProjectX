@@ -8,9 +8,11 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-10 md:mb-12">
-          <h2 className="mt-10 md:mt-16 text-3xl sm:text-4xl md:text-5xl text-white">
-            Our Services
-          </h2>
+          <img
+          src="/Our Services.png"
+           className="mt-10 md:mt-16 w-[200px] md:w-[250px] lg:w-[400px] mx-auto"
+           />
+            
         </div>
 
         <div className="mt-40  max-w-6xl w-full flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-12">
@@ -35,7 +37,7 @@ const HeroSection = () => {
           <div className="flex-1 flex justify-center md:justify-end mt-8 md:mt-0">
             <div className="w-[300px] h-[250px] sm:w-[320px] sm:h-[280px] md:w-[350px] md:h-[350px] overflow-hidden rounded-l-full">
               <img
-                src="/level4.png"
+                src="/Mask group (1).png"
                 alt="Project Making"
                 className="w-full h-full object-cover"
               />

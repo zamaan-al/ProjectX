@@ -11,7 +11,7 @@ const Workshops = () => {
           {/* Left: Image */}
           <div className="flex justify-center lg:justify-end">
             <img
-              src="/workshop.jpg"
+              src="/Mask group (3).png"
               alt="Workshop"
               className="w-[260px] h-[250px] 
       sm:w-[300px] sm:h-[280px] 

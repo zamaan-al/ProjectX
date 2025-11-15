@@ -11,7 +11,7 @@ const TechExpo = () => {
                     {/* Left: Image */}
                     <div className="flex justify-center lg:justify-end">
                         <img
-                            src="/techexpo.jpg"
+                            src="/Mask group.png"
                             alt="Workshop"
                             className="w-[260px] h-[250px] 
                                        sm:w-[300px] sm:h-[280px] 

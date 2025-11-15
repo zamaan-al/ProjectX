@@ -29,7 +29,7 @@ const ProjectXEcommerce = () => {
 <div className="flex-1 flex justify-center md:justify-end mt-8 md:mt-0">
   <div className="w-[300px] h-[250px] sm:w-[320px] sm:h-[280px] md:w-[350px] md:h-[350px] overflow-hidden rounded-l-full">
     <img
-      src="/ProjectXEcommerce.jpg" // replace with your image path
+      src="/Mask group (2).png" // replace with your image path
       alt="E-Commerce"
       className="w-full h-full object-cover"
     />

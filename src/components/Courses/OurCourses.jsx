@@ -14,9 +14,10 @@ const OurCourses = () => {
             ></div>
             {/* Section Heading */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-                <h2 className="mt-10 md:mt-16 text-3xl sm:text-4xl md:text-5xl  text-white leading-tight drop-shadow-md">
-                    Our Courses
-                </h2>
+                <img
+                 className="mt-10 md:mt-16 w-[200px] md:w-[250px] lg:w-[400px] mx-auto"
+                    src="/Our Courses.png"
+                />
             </div>
 
             {/* Level Card 1*/}

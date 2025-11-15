@@ -11,7 +11,7 @@ const Printing = () => {
           {/* Left: Image */}
           <div className="flex justify-center lg:justify-end">
             <img
-              src="/3d-printing.jpg"
+              src="/Mask group (5).png"
               alt="Workshop"
               className="w-[260px] h-[250px] 
       sm:w-[300px] sm:h-[280px] 
