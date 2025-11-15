@@ -103,45 +103,65 @@ const Footer = () => {
 
           {/* Right Section: Contact Info */}
           <div className="flex flex-col items-center lg:items-start space-y-4 sm:space-y-6 lg:mt-14 lg:mr-40 lg:pr-10 text-sm order-3 lg:order-3 w-full lg:w-auto mt-6 ">
-            <h3 className="font-semibold text-base sm:text-lg  ">Get in touch</h3>
 
-            <div className="flex items-start space-x-3 text-center ml-1 lg:text-left">
-              {/* Location */}
-              <img
-                src="/Location.png"
-                className="h-4 w-5 sm:h-5 sm:w-6 mt-1 flex-shrink-0"
-                alt="Location"
-              />
+            {/* Get in touch – opens mail */}
+            <h3
+              onClick={() => (window.location.href = "mailto:info@projectxedu.com")}
+              className="font-semibold text-base sm:text-lg cursor-pointer hover:text-gray-300 transition"
+            >
+              Get in touch
+            </h3>
 
-              <p className="leading-relaxed ml-1">
-                1st Floor, Smart Trade City
-                <br />
-                Kotakkal, Malappuram
-                <br />
-                Kerala 676503
-              </p>
+            {/* Location */}
+            <div className="flex items-start space-x-3 text-center ml-1 lg:text-left cursor-pointer">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=1st+Floor+Smart+Trade+City+Kotakkal+Malappuram+Kerala+676503"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start space-x-3"
+              >
+                <img
+                  src="/Location.png"
+                  className="h-4 w-5 sm:h-5 sm:w-6 mt-1 flex-shrink-0"
+                  alt="Location"
+                />
+
+                <p className="leading-relaxed ml-1">
+                  1st Floor, Smart Trade City
+                  <br />
+                  Kotakkal, Malappuram
+                  <br />
+                  Kerala 676503
+                </p>
+              </a>
             </div>
 
-            <div className="flex items-center ml-1 space-x-3">
-              {/* Phone */}
-              <img
-                src="/Phone.png"
-                className="h-4 w-4 sm:h-5 sm:w-5 mt-1 flex-shrink-0"
-                alt="Phone"
-              />
-              <p className="ml-2">+91 96587 72255</p>
+            {/* Phone */}
+            <div className="flex items-center ml-1 space-x-3 cursor-pointer">
+              <a href="tel:+919658772255" className="flex items-center space-x-3">
+                <img
+                  src="/Phone.png"
+                  className="h-4 w-4 sm:h-5 sm:w-5 mt-1 flex-shrink-0"
+                  alt="Phone"
+                />
+                <p className="ml-2">+91 96587 72255</p>
+              </a>
             </div>
 
-            <div className="flex ml-1 items-center space-x-3">
-              {/* Email */}
-              <img
-                src="/Mail inbox app.png"
-                className="h-4 w-4 sm:h-5 sm:w-5 mt-1 flex-shrink-0"
-                alt="Mail"
-              />
-              <p className="ml-2">info@projectxedu.com</p>
+            {/* Email */}
+            <div className="flex ml-1 items-center space-x-3 cursor-pointer">
+              <a href="mailto:info@projectxedu.com" className="flex items-center space-x-3">
+                <img
+                  src="/Mail inbox app.png"
+                  className="h-4 w-4 sm:h-5 sm:w-5 mt-1 flex-shrink-0"
+                  alt="Mail"
+                />
+                <p className="ml-2">info@projectxedu.com</p>
+              </a>
             </div>
+
           </div>
+
 
         </div>
 
