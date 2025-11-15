@@ -24,7 +24,7 @@ const OurCourses = () => {
                 <div
                     className="relative rounded-none overflow-hidden shadow-lg w-full bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url("/couses1.png")`,
+                        backgroundImage: `url("/courses1.webp")`,
                         minHeight: "450px",
                         opacity: 0.7,
                     }}
