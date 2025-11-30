@@ -23,7 +23,8 @@ const BenefitsProjectX = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="p-6 sm:p-10 min-h-[240px] flex flex-col items-center justify-center text-center space-y-4"
+              className="p-6 sm:p-10 min-h-[240px] flex flex-col items-center justify-center text-center space-y-4
+             rounded-2xl transition-all duration-300 hover:bg-white/10 hover:shadow-xl hover:scale-[1.02]"
             >
               <h3 className="text-white text-lg sm:text-xl font-semibold">{benefit.title}</h3>
               <p className="text-gray-200 text-sm sm:text-base leading-relaxed">{benefit.text}</p>
