@@ -67,11 +67,11 @@ const BenefitsProjectX = () => {
           </p>
 
           {/* Center: Phone Image Placeholder */}
-          <div className="w-[250px] h-[500px] bg-gray-700 rounded-[2rem] shadow-xl flex items-center justify-center">
+          <div className="flex items-center justify-center">
             <img 
-              src="freepik_br_54087363-1ffd-4a64-9309-a2a31388e589.png" 
+              src="app.png" 
               alt="App Preview" 
-              className="rounded-[2rem] object-cover w-full h-full" 
+              className="object-cover w-full h-full" 
             />
           </div>
 
@@ -79,7 +79,7 @@ const BenefitsProjectX = () => {
           <div className="flex flex-col space-y-6">
   {/* Android Button */}
   <button
-    className="px-6 py-3 bg-black text-white rounded-full font-medium shadow-lg border border-gray-700
+    className=" w-60 px-6 py-3 bg-black text-white rounded-full font-medium shadow-lg border border-gray-700
                hover:scale-105 hover:shadow-2xl hover:shadow-black/40
                active:scale-95 active:shadow-inner
                transition-all duration-300 ease-out"

@@ -13,7 +13,7 @@ const StatsSection = () => {
             {/* Background (image + blue section) */}
             <div className="w-1/2 h-full">
               <img
-                src="medium-shot-boy-with-smartphone.jpg"
+                src="Hours on screen.png"
                 alt="Child Innovation"
                 loading="lazy"
                 className="w-full h-full object-cover"
@@ -37,7 +37,7 @@ const StatsSection = () => {
             <div className="absolute inset-0 bg-[rgba(20,74,101,0.6)]"></div>
             <div className="w-1/2 h-full">
               <img
-                src="full-shot-mother-sitting-floor.jpg"
+                src="breakingtoys.jpg"
                 alt="Child Building"
                 loading="lazy"
                 className="w-full h-full object-cover"
