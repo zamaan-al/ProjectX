@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="flex justify-between items-center w-[250px] sm:max-w-[220px]">
               {/* Facebook */}
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/share/1P1SscXmq5/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform duration-200"
@@ -45,7 +45,7 @@ const Footer = () => {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/projectx_edu?igsh=MWx4eGltN3g1aTRkZw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform duration-200"
@@ -59,7 +59,7 @@ const Footer = () => {
 
               {/* YouTube */}
               <a
-                href="https://www.youtube.com"
+                href="https://youtube.com/@projectxedu?si=1mhzr_vdWxqGYINz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform duration-200"

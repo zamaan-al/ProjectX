@@ -78,24 +78,25 @@ const BenefitsProjectX = () => {
           {/* Right: Download Buttons */}
           <div className="flex flex-col space-y-6">
   {/* Android Button */}
-  <button
+  <a href="https://play.google.com/store/apps/details?id=com.trogon.projectx" target="_blank" rel="noopener noreferrer"
+><button
     className=" w-60 px-6 py-3 bg-black text-white rounded-full font-medium shadow-lg border border-gray-700
                hover:scale-105 hover:shadow-2xl hover:shadow-black/40
                active:scale-95 active:shadow-inner
                transition-all duration-300 ease-out"
   >
     Download it for <span className="font-bold">Android</span>
-  </button>
+  </button></a>
 
   {/* iOS Button */}
-  <button
-    className="px-6 py-3 bg-white text-black rounded-full font-medium shadow-lg border border-gray-300
+  <a href="https://apps.apple.com/in/app/projectx-the-learning-app/id1642946176" target="_blank" rel="noopener noreferrer"><button
+    className="w-60 px-6 py-3 bg-white text-black rounded-full font-medium shadow-lg border border-gray-300
                hover:scale-105 hover:shadow-2xl hover:shadow-white/30
                active:scale-95 active:shadow-inner
                transition-all duration-300 ease-out"
   >
     Download it for <span className="font-bold">iOS</span>
-  </button>
+  </button></a>
 </div>
 
         </div>
